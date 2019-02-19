@@ -17,3 +17,10 @@ print(0x10)
 print(0x11)
 
 print(ord('a'))
+
+a = [1,2,3]
+print(id(a))
+
+a[0] =2
+
+print(id(a))
