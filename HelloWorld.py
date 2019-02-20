@@ -27,3 +27,6 @@ print(id(a))
 
 a = (2,3,4)
 print(isinstance(a, type((1,2,3))))
+
+if True :
+    print ('hello')
