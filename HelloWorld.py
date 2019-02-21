@@ -30,3 +30,10 @@ print(isinstance(a, type((1,2,3))))
 
 if True :
     print ('hello')
+
+a = 1
+b = 0
+
+if a or b :
+    print(a)
+
