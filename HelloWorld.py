@@ -1,5 +1,5 @@
 # print('Hello, World!')
-
+# from module import a,
 print(type (1))
 print(type(2/2))
 print(type(2//2))
@@ -18,10 +18,10 @@ print(0x11)
 
 print(ord('a'))
 
-a = [1,2,3]
+a = [1, 2, 3]
 print(id(a))
 
-a[0] =2
+a[0] = 2
 
 print(id(a))
 
