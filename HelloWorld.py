@@ -37,3 +37,4 @@ b = 0
 if a or b :
     print(a)
 
+print(dir())
