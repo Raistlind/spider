@@ -1,8 +1,8 @@
 # print('Hello, World!')
 # from module import a,
-print(type (1))
-print(type(2/2))
-print(type(2//2))
+print(type(1))
+print(type(2 / 2))
+print(type(2 // 2))
 
 print(0b10)
 
@@ -25,17 +25,22 @@ a[0] = 2
 
 print(id(a))
 
-a = (2,3,4)
-print(isinstance(a, type((1,2,3))))
+a = (2, 3, 4)
+print(isinstance(a, type((1, 2, 3))))
 
-if True :
-    print ('hello')
+if True:
+    print('hello')
 
 a = 1
 b = 0
 
-if a or b :
+if a or b:
     print(a)
 
 print(dir())
+
+d = 1, 2, 3
+a, b, c = d
+e = f = g = 1
+
 #
