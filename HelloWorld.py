@@ -49,8 +49,8 @@ print(student1.name)
 
 ##
 
-a = 'python1111java678php'
+a = 'pythonpythonpythonpython'
 
-r = re.findall('[a-z]+', a)
+r = re.findall('(python){3}', a)
 
 print(r)
