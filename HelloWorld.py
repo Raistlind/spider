@@ -51,6 +51,6 @@ print(student1.name)
 
 a = 'python1111java678php'
 
-r = re.findall('[0-9]', a)
+r = re.findall('[a-z]+', a)
 
 print(r)
