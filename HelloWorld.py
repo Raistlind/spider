@@ -3,6 +3,7 @@
 
 import re
 import json
+from enum import Enum
 
 print(0x11)
 
@@ -70,3 +71,8 @@ json_str2 = json.dumps(student2)
 
 print(type(json_str2))
 print(json_str2)
+
+
+class VIP(Enum):
+    YELLOW = 1
+    BLACK = 2
