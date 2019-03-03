@@ -2,6 +2,7 @@
 # from module import a,
 
 import re
+import json
 
 print(0x11)
 
@@ -49,8 +50,23 @@ print(student1.name)
 
 ##
 
-a = 'pythonpythonpythonpython'
+a = 'pythonpythonpythonpythonec'
 
 r = re.findall('(python){3}', a)
 
 print(r)
+
+json_str = '{"name":"dai", "age":18}'
+
+student = json.loads(json_str)
+print(student)
+
+student2 = [
+    {'name': 'dai', 'age': 18, 'type': ['a', 'b']},
+    {'name': 'li', 'age': 11, 'type': ['c', 'e']}
+]
+
+json_str2 = json.dumps(student2)
+
+print(type(json_str2))
+print(json_str2)
