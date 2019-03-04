@@ -102,5 +102,9 @@ f = lambda x, y: x + y
 
 f1 = lambda x, y: x if x > y else y
 
+list_x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+r = map(lambda x: x * x, list_x)
+
 print(f(1, 2))
 print(f1(1, 2))
+print(list(r))
