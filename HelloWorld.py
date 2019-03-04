@@ -76,3 +76,19 @@ print(json_str2)
 class VIP(Enum):
     YELLOW = 1
     BLACK = 2
+
+
+def curve_pre():
+    aa = 25
+
+    def curve(x):
+        return aa * x * x
+
+    return curve
+
+
+f = curve_pre()
+
+print(f(2))
+print(f.__closure__)
+print(f.__closure__[0].cell_contents)
