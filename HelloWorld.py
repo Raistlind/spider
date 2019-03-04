@@ -100,4 +100,7 @@ def add(x, y):
 
 f = lambda x, y: x + y
 
+f1 = lambda x, y: x if x > y else y
+
 print(f(1, 2))
+print(f1(1, 2))
