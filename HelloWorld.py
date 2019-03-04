@@ -92,3 +92,12 @@ f = curve_pre()
 print(f(2))
 print(f.__closure__)
 print(f.__closure__[0].cell_contents)
+
+
+def add(x, y):
+    return x + y
+
+
+f = lambda x, y: x + y
+
+print(f(1, 2))
